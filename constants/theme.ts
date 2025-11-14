@@ -1,0 +1,132 @@
+export const colors = {
+  light: {
+    background: '#FAFAFA',
+    surface: '#FFFFFF',
+    surfaceElevated: '#FFFFFF',
+    primary: '#6366F1',
+    primaryHover: '#4F46E5',
+    secondary: '#8B5CF6',
+    success: '#10B981',
+    error: '#EF4444',
+    warning: '#F59E0B',
+    textPrimary: '#1F2937',
+    textSecondary: '#6B7280',
+    textTertiary: '#9CA3AF',
+    border: '#E5E7EB',
+    borderHover: '#D1D5DB',
+  },
+  dark: {
+    background: '#0F0F0F',
+    surface: '#1A1A1A',
+    surfaceElevated: '#242424',
+    primary: '#818CF8',
+    primaryHover: '#6366F1',
+    secondary: '#A78BFA',
+    success: '#34D399',
+    error: '#F87171',
+    warning: '#FBBF24',
+    textPrimary: '#F9FAFB',
+    textSecondary: '#D1D5DB',
+    textTertiary: '#9CA3AF',
+    border: '#2D2D2D',
+    borderHover: '#3D3D3D',
+  },
+};
+
+export const priorityColors = {
+  urgent: {
+    light: '#EF4444',
+    dark: '#F87171',
+  },
+  high: {
+    light: '#F59E0B',
+    dark: '#FBBF24',
+  },
+  medium: {
+    light: '#F59E0B',
+    dark: '#FBBF24',
+  },
+  low: {
+    light: '#9CA3AF',
+    dark: '#6B7280',
+  },
+};
+
+export const typography = {
+  h1: {
+    fontSize: 32,
+    fontWeight: '700' as const,
+  },
+  h2: {
+    fontSize: 24,
+    fontWeight: '600' as const,
+  },
+  h3: {
+    fontSize: 20,
+    fontWeight: '600' as const,
+  },
+  body: {
+    fontSize: 16,
+    fontWeight: '400' as const,
+  },
+  bodySmall: {
+    fontSize: 14,
+    fontWeight: '400' as const,
+  },
+  caption: {
+    fontSize: 12,
+    fontWeight: '500' as const,
+  },
+};
+
+export const spacing = {
+  xs: 4,
+  sm: 8,
+  md: 12,
+  base: 16,
+  lg: 24,
+  xl: 32,
+  xxl: 48,
+  xxxl: 64,
+};
+
+export const borderRadius = {
+  sm: 8,
+  md: 12,
+  lg: 16,
+};
+
+export const shadows = {
+  small: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.05,
+    shadowRadius: 2,
+    elevation: 1,
+  },
+  medium: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 8,
+    elevation: 3,
+  },
+  large: {
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.15,
+    shadowRadius: 16,
+    elevation: 5,
+  },
+};
+
+export const categoryColors = [
+  '#6366F1', // Indigo
+  '#8B5CF6', // Violet
+  '#EC4899', // Pink
+  '#F59E0B', // Amber
+  '#10B981', // Emerald
+  '#06B6D4', // Cyan
+  '#F43F5E', // Rose
+  '#8B5CF6', // Purple
+];
